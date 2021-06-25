@@ -169,6 +169,32 @@ button {
     transition: 0.3s;
 }
 
+.footer{
+    position: absolute;
+    bottom: 0%;
+    text-align: center;
+    width: 100%;
+    height: 66px;
+    background-color: #fff;
+}
+
+.footer__text-credits, .footer__text{
+    color: #313131;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 0.8%;
+    align-items: baseline;
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.footer__text{
+    color: #96A0FF;
+}
+
 @media only screen and (max-width: 460px) {
     .todo-form {
         flex-direction: column;
